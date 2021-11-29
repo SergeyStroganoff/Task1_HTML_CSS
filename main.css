@@ -1,0 +1,60 @@
+body{
+    font: 14px 'Fira Sans', sans-serif;
+    margin:  5%;
+    box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .2);
+}
+
+
+.top-container{
+    overflow: hidden;
+    text-align:justify;
+    margin: 2%;
+
+}
+
+.Elisabeth {
+    float: left ;
+    width:42% ;
+
+}
+.Eric {
+    float: right;
+    width: 42%;
+}
+
+h2{
+    font: 28px 'Monotype Corsiva';
+    margin-left: 50%;
+}
+
+li {
+    font: 14px 'Fira Sans', sans-serif;
+    margin-bottom: .5rem;
+}
+
+.right-block{
+    margin-left: 28%;
+}
+.main-article{
+    margin-left: 28%;
+    margin-right: 2%;
+    text-indent: 50px;
+    text-align:justify;
+}
+
+img:hover{
+    box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.enter-list{
+    list-style-type: none;
+}
+
+footer {
+    justify-content: center;
+    padding: 5px;
+    background-color: #E9EAEB;
+    color: #202020;
+}
+
+
