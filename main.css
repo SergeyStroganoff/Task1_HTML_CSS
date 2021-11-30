@@ -1,30 +1,58 @@
-body{
+body {
     font: 14px 'Fira Sans', sans-serif;
-    margin:  5%;
+    margin: 5%;
     box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .2);
 }
 
-
-.top-container{
+.top-container {
     overflow: hidden;
-    text-align:justify;
+    text-align: justify;
     margin: 2%;
-
 }
 
-.Elisabeth {
-    float: left ;
-    width:42% ;
-
+.Elisabeth-column {
+    float: left;
+    width: 42%;
 }
-.Eric {
+
+.Eric-column {
     float: right;
     width: 42%;
 }
 
-h2{
+.agenda-name {
     font: 28px 'Monotype Corsiva';
     margin-left: 50%;
+}
+
+.Eric-column .agenda-name {
+    font: 28px 'Monotype Corsiva';
+    margin-left: 0%;
+}
+
+ol.agenda li {
+    font: 14px 'Fira Sans', sans-serif;
+    border-bottom: 2px dotted #C2C2C2; /* Необязателен. Здесь задается толщина, тип и цвет точек */
+    position: relative;
+    padding: 0;
+    margin-bottom: .5rem;
+}
+
+ol .agenda li span {
+    background-color: yellow; /* Это необходимо, чтобы перекрыть точки фоном */
+    margin: 0;
+}
+
+ol.agenda span.text {
+    position: relative;
+    margin-right: 7em; /* Задается чтобы текст не заходил на номера страниц */
+    padding-right: 2px; /* Необязателен. Задается чтобы точки не подходили вплотную к концу текста */
+}
+
+ol.agenda span.page {
+    position: absolute;
+    right: 0;
+    padding-left: 2px; /* Необязателен. Задается чтобы точки не подходили вплотную к номерам страниц */
 }
 
 li {
@@ -32,29 +60,41 @@ li {
     margin-bottom: .5rem;
 }
 
-.right-block{
+.right-block {
     margin-left: 28%;
 }
-.main-article{
+
+.main-article {
     margin-left: 28%;
     margin-right: 2%;
     text-indent: 50px;
-    text-align:justify;
+    text-align: justify;
 }
 
-img:hover{
+img:hover {
     box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.6);
 }
 
-.enter-list{
+.enter-list {
     list-style-type: none;
 }
 
-footer {
+.footer {
     justify-content: center;
     padding: 5px;
     background-color: #E9EAEB;
     color: #202020;
 }
+
+.footer {
+    text-align: center;
+}
+
+.page-number {
+    text-align: right;
+    color: gray;
+    margin-right: 10px;
+}
+
 
 
